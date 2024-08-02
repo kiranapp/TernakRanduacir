@@ -50,7 +50,7 @@
         <script src="data/TernakKambing_15.js"></script>
         <script>
         var map = L.map('map', {
-            zoomControl:true, maxZoom:28, minZoom:1
+            zoomControl:true, maxZoom:28, minZoom:12
         }).fitBounds([[-7.399218229778429,110.45744365977272],[-7.342990306316922,110.54345534390414]]);
         var hash = new L.Hash(map);
         map.attributionControl.setPrefix('<a href="https://github.com/tomchadwin/qgis2web" target="_blank">qgis2web</a> &middot; <a href="https://leafletjs.com" title="A JS library for interactive maps">Leaflet</a> &middot; <a href="https://qgis.org">QGIS</a>');
@@ -77,9 +77,9 @@
             pane: 'pane_RRZEOpenStreetMapStandardHD_0',
             opacity: 1.0,
             attribution: '<a href="https://www.openstreetmap.org/copyright">© OpenStreetMap contributors, CC-BY-SA</a>',
-            minZoom: 1,
+            minZoom: 10,
             maxZoom: 28,
-            minNativeZoom: 0,
+            minNativeZoom: 10,
             maxNativeZoom: 19
         });
         layer_RRZEOpenStreetMapStandardHD_0;
@@ -90,9 +90,9 @@
             pane: 'pane_GoogleSatelliteHybrid_1',
             opacity: 1.0,
             attribution: '',
-            minZoom: 1,
+            minZoom: 10,
             maxZoom: 28,
-            minNativeZoom: 0,
+            minNativeZoom: 10,
             maxNativeZoom: 19
         });
         layer_GoogleSatelliteHybrid_1;
